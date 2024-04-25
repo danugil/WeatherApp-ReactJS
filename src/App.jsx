@@ -2,8 +2,6 @@ import { useState } from "react"
 
 export const App = () => {
 
-  const urlBase = 'https://api.openweathermap.org/data/2.5/weather';
-  const apiKey = '';
   const difKelvin = 273.15;
 
   const [city, setCity] = useState('');
@@ -27,6 +25,8 @@ export const App = () => {
 
   const fetchClima = async () => {
     try {
+      const urlBase = import.meta.env.VITE_WEATHER_API_URL;
+      const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
       const response = await fetch(`${urlBase}?q=${city}&appid=${apiKey}`);
       const data = await response.json();
 
@@ -40,6 +40,7 @@ export const App = () => {
     } catch (error) {
       setError('There was an error obtaining the weather data.')
       setWeatherData(null)
+      console.log(error)
     }
   }
 
