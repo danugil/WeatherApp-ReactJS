@@ -18,23 +18,23 @@ A simple React application that allows users to check the current weather of any
 
 ## Installation
 
-### 1. Clone the repo:
+1. **Clone the repo:**
 ```bash
 git clone https://github.com/danugil/WeatherApp-ReactJS
 ```
-### 2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 ```bash
 cd weather-app
 ```
-### 3. Install dependencies:
+3. **Install dependencies:**
 ```bash
 npm install
 ```
-### 4. Get your API key from Weather API and add it to a .env file:
+4. **Get your API key from Weather API and add it to a .env file:**
 ```bash
 REACT_API_KEY=your_api_key
 ```
-### 5. Start the application:
+5. **Start the application:**
 ```bash
 npm start
 ```
@@ -49,5 +49,5 @@ npm start
 
 ## Acknowledgements
 
-- [Weather API](https://openweathermap.org/api) for providing the weather data.
-- [React Documentation](https://react.dev/blog/2023/03/16/introducing-react-dev) for the helpful guides.
+- <a href="https://openweathermap.org/api" target="_blank">Weather API</a> for providing the weather data.
+- <a href="https://react.dev/blog/2023/03/16/introducing-react-dev" target="_blank">React Documentation</a> for the helpful guides.
