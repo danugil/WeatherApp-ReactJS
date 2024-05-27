@@ -50,4 +50,4 @@ npm start
 ## Acknowledgements
 
 - [Weather API](https://openweathermap.org/api) for providing the weather data.
-- [React Documentation](https://reactjs.org/docs/getting-started.html) for the helpful guides.
+- [React Documentation](https://react.dev/blog/2023/03/16/introducing-react-dev) for the helpful guides.
